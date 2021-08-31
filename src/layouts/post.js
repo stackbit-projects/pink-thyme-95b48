@@ -7,7 +7,7 @@ import BlogPostCategories from '../components/BlogPostCategories';
 import BlogPostMeta from '../components/BlogPostMeta';
 import BlogPostTags from '../components/BlogPostTags';
 
-export default class Post extends React.Component {
+export default class Post  React.Component {
     render() {
         const data = _.get(this.props, 'data');
         const config = _.get(data, 'config');
